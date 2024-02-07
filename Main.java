@@ -6,6 +6,7 @@ import jade.core.ProfileImpl;
 import jade.wrapper.AgentContainer;
 import jade.wrapper.AgentController;
 import jade.wrapper.StaleProxyException;
+import java.util.Scanner;
 
 public class Main {
 
@@ -21,15 +22,20 @@ public class Main {
         AgentContainer mainContainer = runtime.createMainContainer(profile);
 
         try {
-            // Crear y añadir el agente SALUDEDUCA
+            // Crear la instancia del scanner para entrada de usuario
+            Scanner scanner = new Scanner(System.in);
+
+            // Crear una instancia de CriteriosUsuarios
+            CriteriosUsuarios criteriosUsuarios = new CriteriosUsuarios(scanner);
+
+            // Crear y añadir el agente SALUDEDUCA con la instancia de CriteriosUsuarios
+            Object[] arguments = { criteriosUsuarios };
             AgentController saludEducaAgent = mainContainer.createNewAgent(
                 "SALUDEDUCA",
                 "saludeduca.SALUDEDUCA",
-                null
+                arguments
             );
             saludEducaAgent.start();
-            
-            // Eliminar cualquier referencia a RecopilacionUsuarios o cualquier otro agente que no exista
 
         } catch (StaleProxyException e) {
             e.printStackTrace();

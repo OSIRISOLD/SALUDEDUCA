@@ -7,10 +7,11 @@ public class Ejercicio {
     private int duracion;
     private double rating;
     private int edadMinima;
-    private int edadMaxima; // Atributo añadido para la edad máxima
+    private int edadMaxima;
+    private String descripcionCompleta;
 
-    // Constructor con todos los atributos, incluyendo la edad máxima
-    public Ejercicio(String nombre, String categoria, String intensidad, int duracion, double rating, int edadMinima, int edadMaxima) {
+    // Constructor con todos los atributos, incluyendo la descripción completa
+    public Ejercicio(String nombre, String categoria, String intensidad, int duracion, double rating, int edadMinima, int edadMaxima, String descripcionCompleta) {
         this.nombre = nombre;
         this.categoria = categoria;
         this.intensidad = intensidad;
@@ -18,6 +19,7 @@ public class Ejercicio {
         this.rating = rating;
         this.edadMinima = edadMinima;
         this.edadMaxima = edadMaxima;
+        this.descripcionCompleta = descripcionCompleta;
     }
 
     // Getters para todos los atributos
@@ -45,9 +47,12 @@ public class Ejercicio {
         return edadMinima;
     }
 
-    public int getEdadMaxima() { // Getter para la edad máxima
+    public int getEdadMaxima() {
         return edadMaxima;
     }
 
-    // Aquí podrías añadir setters si necesitas modificar los atributos después de crear el objeto
+    // Getter para la descripción completa
+    public String getDescripcionCompleta() {
+        return descripcionCompleta;
+    }
 }

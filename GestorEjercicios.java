@@ -10,7 +10,6 @@ public class GestorEjercicios {
     private HashMap<String, ArrayList<Ejercicio>> ejerciciosPorCategoria;
     private String rutaArchivo;
 
-    // Constructor que acepta la ruta del archivo como parámetro
     public GestorEjercicios(String rutaArchivo) {
         this.rutaArchivo = rutaArchivo;
         ejerciciosPorCategoria = new HashMap<>();
@@ -32,7 +31,7 @@ public class GestorEjercicios {
                         double rating = Double.parseDouble(partes[4]);
                         int edadMinima = Integer.parseInt(partes[5]);
                         int edadMaxima = Integer.parseInt(partes[7]);
-                        Ejercicio ejercicio = new Ejercicio(nombre, categoria, intensidad, duracion, rating, edadMinima, edadMaxima);
+                        Ejercicio ejercicio = new Ejercicio(nombre, categoria, intensidad, duracion, rating, edadMinima, edadMaxima, "");
                         ejerciciosPorCategoria.computeIfAbsent(categoria, k -> new ArrayList<>()).add(ejercicio);
                     }
                 }
@@ -43,16 +42,38 @@ public class GestorEjercicios {
     }
 
     public Ejercicio obtenerEjercicioPorRangoEdad(String objetivoFitness, int edad) {
-        ArrayList<Ejercicio> ejerciciosCategoria = ejerciciosPorCategoria.get(objetivoFitness);
-        if (ejerciciosCategoria != null) {
-            for (Ejercicio ejercicio : ejerciciosCategoria) {
-                if (edad >= ejercicio.getEdadMinima() && edad <= ejercicio.getEdadMaxima()) {
-                    return ejercicio; // Retorna el primer ejercicio que cumpla con el rango de edad
-                }
+    ArrayList<Ejercicio> ejerciciosCategoria = ejerciciosPorCategoria.get(objetivoFitness);
+    if (ejerciciosCategoria != null) {
+        for (Ejercicio ejercicio : ejerciciosCategoria) {
+            System.out.println("Evaluando ejercicio: " + ejercicio.getNombre() + 
+                               ", edad mínima: " + ejercicio.getEdadMinima() + 
+                               ", edad máxima: " + ejercicio.getEdadMaxima()); // Log para diagnóstico
+            if (edad >= ejercicio.getEdadMinima() && edad <= ejercicio.getEdadMaxima()) {
+                System.out.println("Ejercicio seleccionado: " + ejercicio.getNombre()); // Log para diagnóstico
+                return ejercicio;
             }
         }
-        return null; // No se encontró un ejercicio adecuado
+    }
+    return null;
+}
+    public ArrayList<Ejercicio> obtenerEjerciciosPorRangoEdad(String objetivoFitness, int edad) {
+    ArrayList<Ejercicio> ejerciciosFiltrados = new ArrayList<>();
+    if (ejerciciosPorCategoria.containsKey(objetivoFitness)) {
+        for (Ejercicio ejercicio : ejerciciosPorCategoria.get(objetivoFitness)) {
+            if (edad >= ejercicio.getEdadMinima() && edad <= ejercicio.getEdadMaxima()) {
+                ejerciciosFiltrados.add(ejercicio);
+            }
+        }
+    }
+    return ejerciciosFiltrados; // Devuelve una lista de ejercicios que coinciden con el rango de edad
+}
+
+
+
+
+    public ArrayList<Ejercicio> obtenerEjercicios(String categoria) {
+        return ejerciciosPorCategoria.getOrDefault(categoria, new ArrayList<>());
     }
     
-    // Otros métodos necesarios...
+    // ... Otros métodos si son necesarios
 }
