@@ -37,3 +37,8 @@ Archivos de Datos:
 Requisitos:
 - JDK (Java Development Kit) para compilar y ejecutar el código Java.
 - JADE (Java Agent DEvelopment Framework) para la programación de agentes.
+
+# CAPTURAS DE PANTALLA
+[![image.png](https://i.postimg.cc/SsZvzfPs/image.png)](https://postimg.cc/LY1TcL2K)
+[![image.png](https://i.postimg.cc/Kzg0Rht9/image.png)](https://postimg.cc/jwtHF9gN)
+[![image.png](https://i.postimg.cc/x118Yf2S/image.png)](https://postimg.cc/tY8pNHJr)
