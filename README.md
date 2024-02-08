@@ -42,3 +42,7 @@ Requisitos:
 [![image.png](https://i.postimg.cc/SsZvzfPs/image.png)](https://postimg.cc/LY1TcL2K)
 [![image.png](https://i.postimg.cc/Kzg0Rht9/image.png)](https://postimg.cc/jwtHF9gN)
 [![image.png](https://i.postimg.cc/x118Yf2S/image.png)](https://postimg.cc/tY8pNHJr)
+
+# INSTRUCCIONES PARA EJECTUAR
+
+Siempre tener en cuenta que para ejecutarlo hay que darle click derecho en el main y run file, para lo cual asì se va a pasar a la siguiente fase donde se muestra la interfaz de jade y donde se encuentran los agentes, para luego seguir solamente por consola ingresando las opciones que pide el sistema.
