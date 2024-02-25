@@ -1,0 +1,165 @@
+Categorías de Objetivo de Fitness
+Fuerza
+Levantamiento de pesas: Ejercicio1;Fuerza;Alta;30;4.5;18;100;160
+
+Duración (minutos): 30
+Calificación: 4.5 (en una escala del 1 al 5)
+Edad Mínima: 18 años
+Edad Máxima: 21 años
+Peso Máximo (kg): 100 kg
+Estatura Mínima (cm): 160 cm
+Flexiones: Ejercicio2;Fuerza;Media;45;3.8;20;90;150
+
+Duración (minutos): 45
+Calificación: 3.8 (en una escala del 1 al 5)
+Edad Mínima: 22 años
+Edad Máxima: 25 años
+Peso Máximo (kg): 90 kg
+Estatura Mínima (cm): 150 cm
+Sentadillas: Ejercicio3;Fuerza;Alta;40;4.0;22;110;165
+
+Duración (minutos): 40
+Calificación: 4.0 (en una escala del 1 al 5)
+Edad Mínima: 26 años
+Edad Máxima: 29 años
+Peso Máximo (kg): 110 kg
+Estatura Mínima (cm): 165 cm
+Dominadas: Ejercicio4;Fuerza;Baja;20;4.2;16;80;155
+
+Duración (minutos): 20
+Calificación: 4.2 (en una escala del 1 al 5)
+Edad Mínima: 30 años
+Edad Máxima: 33 años
+Peso Máximo (kg): 80 kg
+Estatura Mínima (cm): 155 cm
+Press de banca: Ejercicio5;Fuerza;Media;35;4.4;19;95;158
+
+Duración (minutos): 35
+Calificación: 4.4 (en una escala del 1 al 5)
+Edad Mínima: 34 años
+Edad Máxima: 37 años
+Peso Máximo (kg): 95 kg
+Estatura Mínima (cm): 158 cm
+Resistencia
+Correr: Ejercicio6;Resistencia;Media;60;4.0;15;80;170
+
+Duración (minutos): 60
+Calificación: 4.0 (en una escala del 1 al 5)
+Edad Mínima: 15 años
+Edad Máxima: 18 años
+Peso Máximo (kg): 80 kg
+Estatura Mínima (cm): 170 cm
+Natación: Ejercicio7;Resistencia;Baja;90;3.5;14;85;175
+
+Duración (minutos): 90
+Calificación: 3.5 (en una escala del 1 al 5)
+Edad Mínima: 19 años
+Edad Máxima: 22 años
+Peso Máximo (kg): 85 kg
+Estatura Mínima (cm): 175 cm
+Ciclismo: Ejercicio8;Resistencia;Alta;45;4.2;18;70;168
+
+Duración (minutos): 45
+Calificación: 4.2 (en una escala del 1 al 5)
+Edad Mínima: 23 años
+Edad Máxima: 26 años
+Peso Máximo (kg): 70 kg
+Estatura Mínima (cm): 168 cm
+Saltar la cuerda: Ejercicio9;Resistencia;Media;55;3.9;16;75;162
+
+Duración (minutos): 55
+Calificación: 3.9 (en una escala del 1 al 5)
+Edad Mínima: 27 años
+Edad Máxima: 30 años
+Peso Máximo (kg): 75 kg
+Estatura Mínima (cm): 162 cm
+Senderismo: Ejercicio10;Resistencia;Alta;70;4.5;21;88;180
+
+Duración (minutos): 70
+Calificación: 4.5 (en una escala del 1 al 5)
+Edad Mínima: 31 años
+Edad Máxima: 34 años
+Peso Máximo (kg): 88 kg
+Estatura Mínima (cm): 180 cm
+Ganar Músculo
+Levantamiento de pesas: Ejercicio11;Ganar Músculo;Alta;30;4.5;18;100;160
+
+Duración (minutos): 30
+Calificación: 4.5 (en una escala del 1 al 5)
+Edad Mínima: 18 años
+Edad Máxima: 21 años
+Peso Máximo (kg): 100 kg
+Estatura Mínima (cm): 160 cm
+Flexiones: Ejercicio12;Ganar Músculo;Media;45;3.8;20;90;150
+
+Duración (minutos): 45
+Calificación: 3.8 (en una escala del 1 al 5)
+Edad Mínima: 22 años
+Edad Máxima: 25 años
+Peso Máximo (kg): 90 kg
+Estatura Mínima (cm): 150 cm
+Sentadillas: Ejercicio13;Ganar Músculo;Media;40;4.0;22;110;165
+
+Duración (minutos): 40
+Calificación: 4.0 (en una escala del 1 al 5)
+Edad Mínima: 26 años
+Edad Máxima: 29 años
+Peso Máximo (kg): 110 kg
+Estatura Mínima (cm): 165 cm
+Press de banca: Ejercicio14;Ganar Músculo;Alta;35;4.4;19;95;158
+
+Duración (minutos): 35
+Calificación: 4.4 (en una escala del 1 al 5)
+Edad Mínima: 30 años
+Edad Máxima: 33 años
+Peso Máximo (kg): 95 kg
+Estatura Mínima (cm): 158 cm
+Peso muerto: Ejercicio15;Ganar Músculo;Baja;25;4.2;17;85;155
+
+Duración (minutos): 25
+Calificación: 4.2 (en una escala del 1 al 5)
+Edad Mínima: 34 años
+Edad Máxima: 37 años
+Peso Máximo (kg): 85 kg
+Estatura Mínima (cm): 155 cm
+Perder Peso
+Correr: Ejercicio16;Perder Peso;Media;60;4.0;15;80;170
+
+Duración (minutos): 60
+Calificación: 4.0 (en una escala del 1 al 5)
+Edad Mínima: 15 años
+Edad Máxima: 18 años
+Peso Máximo (kg): 80 kg
+Estatura Mínima (cm): 170 cm
+Saltar la cuerda: Ejercicio17;Perder Peso;Baja;55;3.9;16;75;162
+
+Duración (minutos): 55
+Calificación: 3.9 (en una escala del 1 al 5)
+Edad Mínima: 19 años
+Edad Máxima: 22 años
+Peso Máximo (kg): 75 kg
+Estatura Mínima (cm): 162 cm
+Ciclismo: Ejercicio18;Perder Peso;Alta;45;4.2;18;70;168
+
+Duración (minutos): 45
+Calificación: 4.2 (en una escala del 1 al 5)
+Edad Mínima: 23 años
+Edad Máxima: 26 años
+Peso Máximo (kg): 70 kg
+Estatura Mínima (cm): 168 cm
+Zumba: Ejercicio19;Perder Peso;Media;50;3.7;20;85;155
+
+Duración (minutos): 50
+Calificación: 3.7 (en una escala del 1 al 5)
+Edad Mínima: 27 años
+Edad Máxima: 30 años
+Peso Máximo (kg): 85 kg
+Estatura Mínima (cm): 155 cm
+Yoga: Ejercicio20;Perder Peso;Baja;40;3.5;18;75;150
+
+Duración (minutos): 40
+Calificación: 3.5 (en una escala del 1 al 5)
+Edad Mínima: 31 años
+Edad Máxima: 34 años
+Peso Máximo (kg): 75 kg
+Estatura Mínima (cm): 150 cm

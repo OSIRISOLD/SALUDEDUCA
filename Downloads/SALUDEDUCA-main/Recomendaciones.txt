@@ -1,0 +1,3 @@
+Usuario: ALEJANDRO, Ejercicio recomendado: Correr: Ejercicio6, Recomendación: Es buena opcion correr ya que ayuda a mantenerse en forma
+Usuario: TANIA, Ejercicio recomendado: Levantamiento de pesas: Ejercicio1, Recomendación: Ten en cuenta que el levantamiento de pesas tiene que ser bien adecuado 
+Usuario: Levantamiento de pesas: Ejercicio1, Recomendación: Recomiendo ser consciente de tener una buena postura
