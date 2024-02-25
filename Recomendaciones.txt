@@ -1,3 +1,7 @@
 Usuario: ALEJANDRO, Ejercicio recomendado: Correr: Ejercicio6, Recomendación: Es buena opcion correr ya que ayuda a mantenerse en forma
 Usuario: TANIA, Ejercicio recomendado: Levantamiento de pesas: Ejercicio1, Recomendación: Ten en cuenta que el levantamiento de pesas tiene que ser bien adecuado 
-Usuario: Levantamiento de pesas: Ejercicio1, Recomendación: Recomiendo ser consciente de tener una buena postura
+Usuario: Levantamiento de pesas: Ejercicio1, Recomendación: ASDPKPAI JFOAFH
+Usuario: Correr: Ejercicio6, Recomendación: CCOMO LO MEJOR DE CORRER ES DISFRUTAR
+Usuario: Correr: Ejercicio6, Recomendación: YO COMO BUEN CORREDOR RECOMIENDO BUENAS RUTINAS
+Usuario: Correr: Ejercicio16, Recomendación: CORRE BIEN
+Usuario: Correr: Ejercicio16, Recomendación: PORFAVOR CORREEEEEEEEEEE
